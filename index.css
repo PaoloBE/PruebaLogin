@@ -30,11 +30,12 @@ form .logBttm .logTitulo{
     font-size: 18px;
     color: #000000;
 }
-form .logBttm p{
+form .logBttm a{
     padding: 0px 0px 18px 0px;
-    font-size: 11px;
+    font-size: 10px;
     color: #b7b7b7;
     margin-block-start: 0px;
+    text-decoration: none;
 }
 form .logBttm .logInp i{
     color: #717171;
@@ -44,6 +45,9 @@ form .logBttm .logInp input{
     border: none;
     background: none;
     font-size: 12px;
+}
+form .logBttm .logInp.err{
+    background: #dcbaba;
 }
 form .logBttm .logInp{
     display: block;

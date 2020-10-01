@@ -1,3 +1,71 @@
-body{
-    background-color: ghostwhite;
+body {
+	background: linear-gradient(101deg, rgba(0,115,255,1) 0%, rgba(1,195,255,1) 100%);
+	font-family: Tahoma, Geneva, sans-serif;
+}
+form {
+	height: 97vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.logCont {
+		text-align: center;
+		border-radius: 12px;
+		background-color: white;
+		box-shadow: 0 0 10px 12px #0000000d;
+		width: 350px;
+	}
+	.logTop {
+		height: 50px;
+		border-radius: 11px 11px 0 0;
+		background: linear-gradient(270deg,rgba(0,115,255,1) 0%, rgba(1,195,255,1) 100%);
+	}
+	.logBttm {
+		display: inline-block;
+		width: 71%;
+		.logTitulo {
+			padding: 40px 0px 0px 0px;
+			font-weight: 800;
+			font-size: 18px;
+			color: #000000;
+		}
+		a {
+			padding: 0px 0px 18px 0px;
+			font-size: 10px;
+			color: #b7b7b7;
+			margin-block-start: 0px;
+		}
+		.logInp {
+			i {
+				color: #717171;
+				margin-right: 4px;
+			}
+			input {
+				border: none;
+				background: none;
+				font-size: 12px;
+			}
+			display: block;
+			padding: 3px 8px 5px;
+			background: #e6e6e6;
+			margin: 8px;
+			border-radius: 8px;
+			text-align: initial;
+		}
+		.logInp.err {
+			background: #dcbaba;
+		}
+		.loginBttn {
+			display: block;
+			padding: 10px;
+			button {
+				background: linear-gradient(270deg,rgba(0,115,255,1) 0%, rgba(1,195,255,1) 100%);
+				width: 84%;
+				height: 28px;
+				border: none;
+				color: white;
+				border-radius: 15px;
+				font-size: 11px;
+			}
+		}
+	}
 }
